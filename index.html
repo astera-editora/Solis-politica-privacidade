@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade — Solis</title>
+  <meta name="description" content="Política de Privacidade do aplicativo Solis (Solis Educacional), da Astera Editora. Dados coletados, finalidades, crianças e adolescentes, compartilhamento e como pedir exclusão.">
+  <link rel="canonical" href="https://astera-editora.github.io/Solis-politica-privacidade/">
+  <meta name="theme-color" content="#372156">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --ink: #241433;
+      --muted: #5c5470;
+      --purple: #5c029b;
+      --deep: #372156;
+      --bg: #f4f0f8;
+      --card: #ffffff;
+      --line: #e4dced;
+      --soft: #f3e9fb;
+      --max: 46rem;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.65;
+    }
+
+    a { color: var(--purple); }
+
+    a:hover { text-decoration-thickness: 2px; }
+
+    .skip {
+      position: absolute;
+      left: 1rem;
+      top: -4rem;
+      background: #fff;
+      color: var(--deep);
+      padding: 0.5rem 0.75rem;
+      border-radius: 8px;
+      z-index: 2;
+    }
+
+    .skip:focus { top: 1rem; }
+
+    .hero {
+      background: linear-gradient(160deg, #5c029b 0%, #372156 70%);
+      color: #fff;
+      padding: 3.25rem 1.25rem 2.75rem;
+    }
+
+    .wrap {
+      width: min(var(--max), 100%);
+      margin: 0 auto;
+    }
+
+    .brand {
+      margin: 0 0 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      font-weight: 700;
+      opacity: 0.85;
+    }
+
+    h1 {
+      margin: 0 0 0.75rem;
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    .lede {
+      margin: 0;
+      max-width: 38rem;
+      font-size: 1.125rem;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.92);
+    }
+
+    .meta {
+      display: inline-block;
+      margin: 1.25rem 0 0;
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.14);
+      font-size: 0.92rem;
+    }
+
+    main { padding: 1.5rem 1.25rem 3.5rem; }
+
+    .summary,
+    .card,
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 1.25rem 1.25rem 0.4rem;
+      margin: 0 0 1rem;
+    }
+
+    .summary {
+      background: var(--soft);
+      border-color: transparent;
+      padding-bottom: 0.6rem;
+    }
+
+    .summary h2,
+    nav h2 { margin-top: 0.2rem; }
+
+    h2 {
+      font-size: 1.35rem;
+      line-height: 1.3;
+      margin: 0.35rem 0 0.75rem;
+      color: var(--deep);
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      margin: 1.15rem 0 0.35rem;
+      color: var(--deep);
+    }
+
+    p { margin: 0 0 0.9rem; }
+
+    ul, ol { margin: 0 0 1rem; padding-left: 1.2rem; }
+
+    li { margin: 0.28rem 0; }
+
+    nav ol { padding-left: 1.3rem; }
+
+    nav a { text-decoration: none; }
+
+    nav a:hover { text-decoration: underline; }
+
+    .ids {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 0 1rem;
+      font-size: 0.98rem;
+    }
+
+    .ids th,
+    .ids td {
+      text-align: left;
+      vertical-align: top;
+      padding: 0.55rem 0.4rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .ids th {
+      width: 38%;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .contact {
+      background: var(--deep);
+      color: #fff;
+      border: 0;
+      border-radius: 16px;
+      padding: 1.35rem 1.25rem;
+      margin-top: 0.25rem;
+    }
+
+    .contact h2 { color: #fff; }
+
+    .contact a { color: #fff; }
+
+    .contact p:last-child { margin-bottom: 0.4rem; }
+
+    footer {
+      color: var(--muted);
+      font-size: 0.92rem;
+      padding: 0 1.25rem 2.5rem;
+    }
+
+    footer .wrap { border-top: 1px solid var(--line); padding-top: 1rem; }
+
+    code {
+      font-family: ui-monospace, Consolas, monospace;
+      font-size: 0.92em;
+    }
+
+    a, code, td, th {
+      overflow-wrap: anywhere;
+    }
+
+    @media (max-width: 640px) {
+      .ids th { width: 42%; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .hero { background: #fff; color: #000; padding: 0 0 1rem; }
+      .lede, .meta { color: #000; }
+      .summary, section, .card, .contact {
+        border: 0;
+        border-radius: 0;
+        background: #fff;
+        color: #000;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .contact h2, .contact a { color: #000; }
+      a { text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="brand">Solis Educacional</p>
+      <h1>Política de Privacidade</h1>
+      <p class="lede">Como o aplicativo Solis trata os dados de alunos, responsáveis, professores e demais perfis da escola.</p>
+      <p class="meta">Atualizada em 21 de outubro de 2026</p>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="wrap">
+      <aside class="summary">
+        <h2>Em resumo</h2>
+        <ul>
+          <li>O Solis é o aplicativo educacional usado pela escola. A conta é fornecida pela instituição de ensino.</li>
+          <li>Os dados servem para autenticar o acesso, entregar conteúdos, avaliações, tarefas e, com a sua permissão, digitalizar provas pela câmera.</li>
+          <li>Não vendemos dados pessoais. O aplicativo não exibe anúncios.</li>
+          <li>Para acessar, corrigir ou excluir dados, escreva para <a href="mailto:coordenacao@soliseducacional.com.br">coordenacao@soliseducacional.com.br</a> ou fale com a escola.</li>
+        </ul>
+      </aside>
+
+      <nav class="card" aria-label="Sumário">
+        <h2>Sumário</h2>
+        <ol>
+          <li><a href="#quem-somos">Quem é responsável pelo tratamento</a></li>
+          <li><a href="#escopo">A quem esta política se aplica</a></li>
+          <li><a href="#dados">Quais dados tratamos</a></li>
+          <li><a href="#permissoes">Permissões do celular</a></li>
+          <li><a href="#finalidades">Para que usamos os dados</a></li>
+          <li><a href="#bases-legais">Bases legais</a></li>
+          <li><a href="#criancas">Crianças e adolescentes</a></li>
+          <li><a href="#compartilhamento">Com quem compartilhamos</a></li>
+          <li><a href="#transferencia">Transferência internacional</a></li>
+          <li><a href="#seguranca">Segurança</a></li>
+          <li><a href="#retencao">Por quanto tempo guardamos</a></li>
+          <li><a href="#direitos">Seus direitos</a></li>
+          <li><a href="#exclusao">Como pedir exclusão</a></li>
+          <li><a href="#cookies">Cookies, site e anúncios</a></li>
+          <li><a href="#terceiros">Conteúdos de terceiros</a></li>
+          <li><a href="#atualizacoes">Atualizações</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ol>
+      </nav>
+
+      <section id="quem-somos">
+        <h2>1. Quem é responsável pelo tratamento</h2>
+        <p>O aplicativo <strong>Solis</strong> é oferecido pela <strong>Astera Editora Ltda.</strong>, pessoa jurídica inscrita no CNPJ nº 14.239.192/0001-06, com sede na Rua das Carmelitas, 2841, Boqueirão, Curitiba/PR, CEP 81.650-060. No aplicativo, a empresa também é identificada como Astera Editora e Tecnologia Educacional Ltda.</p>
+        <p>O Solis é contratado pela instituição de ensino à qual o usuário está vinculado. Nos dados de alunos, responsáveis e equipe usados na atividade pedagógica, a instituição de ensino é a controladora e a Astera é a operadora: a escola define a finalidade educacional e a Astera trata os dados para prestar o serviço.</p>
+        <p>A Astera também decide a finalidade, e portanto atua como controladora, na autenticação da conta, na segurança do aplicativo, no atendimento de suporte e no cumprimento de obrigação legal.</p>
+        <table class="ids">
+          <tbody>
+            <tr>
+              <th scope="row">Aplicativo</th>
+              <td>Solis</td>
+            </tr>
+            <tr>
+              <th scope="row">Android</th>
+              <td><code>com.incamobile</code></td>
+            </tr>
+            <tr>
+              <th scope="row">iOS</th>
+              <td><code>org.name.solis.incamobile</code></td>
+            </tr>
+            <tr>
+              <th scope="row">Serviço online</th>
+              <td>backend.soliseducacional.com.br</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="escopo">
+        <h2>2. A quem esta política se aplica</h2>
+        <p>Esta política vale para o aplicativo Solis em Android e iOS e para as funções ligadas a ele: biblioteca digital, trilhas, avaliações, correção e digitalização de provas, tarefas, fórum, calendário, leitura de QR Code, suporte e perfil.</p>
+        <p>Os perfis de acesso são aluno, responsável, professor, coordenador, corretor, bibliotecário, administrador e digitalizador. O login é pessoal, feito com o código ou o e-mail fornecido pela instituição, e não deve ser compartilhado.</p>
+        <p>As regras de conduta e de licença de uso estão nos Termos de Uso, exibidos dentro do aplicativo. Esta página trata da proteção de dados pessoais, em conformidade com a Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais).</p>
+      </section>
+
+      <section id="dados">
+        <h2>3. Quais dados tratamos</h2>
+
+        <h3>Conta e identificação</h3>
+        <ul>
+          <li>Nome, e-mail, apelido, foto, matrícula e instituição de ensino.</li>
+          <li>Perfil de acesso, como aluno, responsável, professor ou outro perfil escolar.</li>
+          <li>Credencial de login (código de acesso ou e-mail) e senha, usadas para autenticar. A senha é pessoal e intransferível.</li>
+          <li>Token de sessão armazenado no aparelho para manter o acesso.</li>
+        </ul>
+        <p>Conforme o cadastro mantido pela escola, também podem ser tratados telefone, data de nascimento, CPF, endereço e outros dados necessários à prestação do serviço educacional.</p>
+
+        <h3>Atividade educacional</h3>
+        <ul>
+          <li>Progresso em trilhas, exercícios e conteúdos da biblioteca, inclusive favoritos.</li>
+          <li>Respostas, notas e resultados de avaliações e simulados.</li>
+          <li>Tarefas, mensagens de fórum e eventos de calendário.</li>
+          <li>Imagens de provas, gabaritos e redações capturadas pela câmera ou escolhidas na galeria, enviadas ao servidor do Solis para correção.</li>
+          <li>Chamados de suporte e imagens anexadas a eles.</li>
+          <li>Notificações exibidas dentro do aplicativo.</li>
+        </ul>
+
+        <h3>Dados técnicos</h3>
+        <p>Os servidores do Solis registram dados de conexão necessários para o funcionamento e a segurança, como endereço IP, data e hora do acesso e identificadores da sessão. O aplicativo não solicita a localização do GPS e não usa identificador de publicidade.</p>
+
+        <h3>O que fica no aparelho</h3>
+        <p>O aplicativo guarda no próprio celular a sessão (token e dados básicos do perfil) e um cache local de conteúdos educacionais. Sair da conta apaga a sessão local. Desinstalar o aplicativo remove esses dados do aparelho. A cópia mantida nos servidores segue a seção de prazo de guarda.</p>
+      </section>
+
+      <section id="permissoes">
+        <h2>4. Permissões do celular</h2>
+        <ul>
+          <li><strong>Câmera.</strong> Ler QR Code do material didático e digitalizar provas, gabaritos e redações. As imagens da digitalização são enviadas ao servidor do Solis para a correção.</li>
+          <li><strong>Fotos e arquivos.</strong> Escolher imagens da galeria para anexar a um chamado de suporte ou a uma correção, e armazenar temporariamente a digitalização.</li>
+          <li><strong>Microfone.</strong> O sistema pode solicitar essa permissão junto com a câmera. O Solis não grava conversas, não faz reconhecimento de voz e não usa o microfone para publicidade ou monitoramento.</li>
+          <li><strong>Internet.</strong> Necessária para entrar na conta e sincronizar conteúdos e atividades.</li>
+          <li><strong>Vibração.</strong> Resposta tátil da interface.</li>
+        </ul>
+        <p>Recusar câmera ou galeria impede só a função que depende dessa permissão. O restante do aplicativo continua disponível.</p>
+      </section>
+
+      <section id="finalidades">
+        <h2>5. Para que usamos os dados</h2>
+        <ul>
+          <li>Confirmar a identidade e manter a sessão iniciada.</li>
+          <li>Entregar biblioteca, trilhas, avaliações, tarefas, fórum, calendário e conteúdos acessados por QR Code.</li>
+          <li>Permitir que a escola e os perfis autorizados acompanhem a atividade pedagógica, inclusive a correção de provas.</li>
+          <li>Atender pedidos de suporte.</li>
+          <li>Proteger contas, prevenir uso indevido e cumprir dever legal.</li>
+          <li>Entender o uso do serviço de forma agregada, para mantê-lo e melhorá-lo.</li>
+        </ul>
+        <p>Não usamos esses dados para vender publicidade, montar perfil comercial ou oferecer o cadastro a terceiros para marketing.</p>
+      </section>
+
+      <section id="bases-legais">
+        <h2>6. Bases legais</h2>
+        <p>O tratamento se apoia, conforme o caso, em:</p>
+        <ul>
+          <li>execução do contrato de prestação do serviço educacional firmado com a instituição, e de procedimentos ligados a esse contrato;</li>
+          <li>cumprimento de obrigação legal ou regulatória;</li>
+          <li>exercício regular de direitos em processo judicial, administrativo ou arbitral;</li>
+          <li>legítimo interesse, limitado aos direitos do titular, para segurança da conta e melhoria do serviço;</li>
+          <li>consentimento, quando a lei o exigir, em especial no tratamento de dados de crianças.</li>
+        </ul>
+      </section>
+
+      <section id="criancas">
+        <h2>7. Crianças e adolescentes</h2>
+        <p>O Solis é usado em ambiente escolar e pode ser utilizado por crianças e adolescentes. O tratamento busca o melhor interesse deles.</p>
+        <p>Dados de crianças menores de 12 anos só são tratados com consentimento específico e em destaque de pelo menos um dos pais ou do responsável legal, nos termos do art. 14 da LGPD. Esse consentimento é colhido pela instituição de ensino, em geral na matrícula ou na adesão ao Solis. A escola é quem inclui o aluno no serviço.</p>
+        <p>Não usamos dados de crianças ou adolescentes para publicidade, perfil de consumo ou venda de bases de dados.</p>
+        <p>Pais e responsáveis podem pedir acesso, correção ou exclusão pelo e-mail indicado no final desta política ou diretamente à instituição de ensino.</p>
+      </section>
+
+      <section id="compartilhamento">
+        <h2>8. Com quem compartilhamos</h2>
+        <p>Não vendemos dados pessoais. O compartilhamento ocorre apenas nestas situações:</p>
+        <ul>
+          <li><strong>Instituição de ensino</strong> vinculada à conta, incluindo professores e outros perfis autorizados pela escola, para a atividade pedagógica.</li>
+          <li><strong>Operadores de infraestrutura</strong> que hospedam o serviço e armazenam arquivos. Fotos de perfil e mídias podem ser guardadas em serviços da Amazon Web Services. Esses operadores só tratam os dados para prestar o Solis, sob orientação da Astera ou da escola.</li>
+          <li><strong>Autoridades públicas</strong>, quando uma lei ou uma ordem válida exigir.</li>
+          <li><strong>Operação societária</strong>, como fusão ou aquisição da Astera, caso em que os dados seguem protegidos por esta política.</li>
+        </ul>
+        <p>Google Play e App Store tratam os dados da conta da loja no momento do download, segundo as políticas do Google e da Apple. Esse tratamento é feito pelas lojas, não pelo Solis.</p>
+      </section>
+
+      <section id="transferencia">
+        <h2>9. Transferência internacional</h2>
+        <p>Parte da infraestrutura e dos conteúdos incorporados pode estar fora do Brasil, inclusive em serviços da Amazon Web Services, Google, YouTube e Vimeo. Quando há transferência internacional, ela ocorre com as garantias previstas na LGPD, como cláusulas contratuais e medidas de segurança compatíveis com a finalidade do serviço.</p>
+      </section>
+
+      <section id="seguranca">
+        <h2>10. Segurança</h2>
+        <p>A comunicação do aplicativo com os servidores usa conexão criptografada (HTTPS). O acesso aos dados é limitado pelo perfil do usuário e por pessoas autorizadas da operação. A senha não deve ser compartilhada, e o ideal é sair da conta em aparelhos usados por mais de uma pessoa.</p>
+        <p>Nenhuma transmissão ou armazenamento é livre de risco. Se você souber de um uso indevido da sua conta, avise a escola e o e-mail de contato desta política.</p>
+      </section>
+
+      <section id="retencao">
+        <h2>11. Por quanto tempo guardamos</h2>
+        <p>Os dados ficam armazenados enquanto a conta estiver ativa e enquanto durar o contrato com a instituição de ensino. Depois disso, podemos mantê-los pelo prazo necessário para cumprir obrigação legal, exercer direitos e preservar registros educacionais cuja guarda caiba à escola.</p>
+        <p>Encerrado o prazo, os dados são eliminados ou anonimizados. Imagens de provas e redações permanecem pelo tempo exigido pelo fluxo de correção e pelas regras de guarda da instituição.</p>
+      </section>
+
+      <section id="direitos">
+        <h2>12. Seus direitos</h2>
+        <p>Nos termos do art. 18 da LGPD, você pode pedir:</p>
+        <ul>
+          <li>confirmação de que tratamos seus dados e acesso a eles;</li>
+          <li>correção de dados incompletos, inexatos ou desatualizados;</li>
+          <li>anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade;</li>
+          <li>portabilidade, quando aplicável;</li>
+          <li>informação sobre com quem os dados foram compartilhados;</li>
+          <li>revogação do consentimento, quando o tratamento se basear nele;</li>
+          <li>revisão de decisões tomadas unicamente por meios automatizados, se houver.</li>
+        </ul>
+        <p>O Solis não toma decisão exclusivamente automatizada com efeito jurídico sobre o usuário. Recursos pedagógicos do serviço contratado pela escola não substituem a avaliação feita pela instituição.</p>
+      </section>
+
+      <section id="exclusao">
+        <h2>13. Como pedir acesso, correção ou exclusão</h2>
+        <p>Envie um e-mail para <a href="mailto:coordenacao@soliseducacional.com.br">coordenacao@soliseducacional.com.br</a> com seu nome, a instituição de ensino e o que você precisa (acesso, correção ou exclusão). Podemos pedir informações para confirmar que o pedido é seu.</p>
+        <p>O aplicativo não oferece cadastro aberto ao público: a conta é criada pela escola. Por isso a exclusão é pedida por este e-mail ou pela própria instituição. Quando os dados escolares tiverem a escola como controladora, encaminharemos o pedido a ela ou o atenderemos em conjunto.</p>
+        <p>A exclusão pode ser parcial quando a lei ou a escola exigir a guarda, por exemplo de histórico escolar, registros de segurança ou documentos ligados à defesa de direitos. Responderemos no prazo previsto na LGPD.</p>
+        <p>Você também pode apresentar reclamação à Autoridade Nacional de Proteção de Dados (ANPD), em <a href="https://www.gov.br/anpd/pt-br">www.gov.br/anpd</a>.</p>
+      </section>
+
+      <section id="cookies">
+        <h2>14. Cookies, site e anúncios</h2>
+        <p>O aplicativo Solis não usa cookies de publicidade e não exibe anúncios, inclusive Google AdSense.</p>
+        <p>O site <a href="https://www.soliseducacional.com.br/">soliseducacional.com.br</a> pode usar cookies próprios e de terceiros para funcionamento, medição de audiência e, quando houver, anúncios. Dá para limitar cookies nas configurações do navegador. Essa escolha pode afetar partes do site e não muda o funcionamento do aplicativo.</p>
+        <p>O aplicativo não coleta dados de cartão de pagamento. Se uma compra for feita em outro canal da Astera, os dados pedidos são só os daquele canal.</p>
+      </section>
+
+      <section id="terceiros">
+        <h2>15. Conteúdos de terceiros</h2>
+        <p>Vídeos da biblioteca e das trilhas podem abrir em players do YouTube ou do Vimeo. Arquivos podem ser exibidos pelo visualizador do Google. Ao carregar esse conteúdo, o serviço de terceiro recebe dados técnicos de conexão, como o endereço IP, segundo a política dele.</p>
+        <p>Links para sites de fora do Solis seguem as regras desses sites. Vale ler a política de cada um antes de informar dados pessoais.</p>
+      </section>
+
+      <section id="atualizacoes">
+        <h2>16. Atualizações desta política</h2>
+        <p>Quando esta política mudar, a versão nova será publicada nesta página com a data de atualização. Mudanças relevantes podem ser avisadas no aplicativo ou pela instituição de ensino. O uso do Solis depois da publicação indica que você teve acesso à versão vigente.</p>
+      </section>
+
+      <section class="contact" id="contato">
+        <h2>17. Contato</h2>
+        <p><a href="mailto:coordenacao@soliseducacional.com.br">coordenacao@soliseducacional.com.br</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Solis Educacional · Astera Editora Ltda. · Política de Privacidade do aplicativo Solis, atualizada em 21 de outubro de 2026.</p>
+    </div>
+  </footer>
+</body>
+</html>
